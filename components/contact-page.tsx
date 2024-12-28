@@ -8,7 +8,7 @@ import { Form, FormControl, FormField, FormItem, FormMessage } from "./ui/form";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Textarea } from "./ui/textarea";
-import { PhoneCall, Mail, MapPin, Terminal } from "lucide-react";
+// import { PhoneCall, Mail, MapPin, Terminal } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string(),
@@ -48,8 +48,8 @@ const ContactPage = () => {
       }
       const data = await response.json();
       console.log("Email sent successfully:", data);
-    } catch (error: any) {
-      console.error("Error sending email:", error.message || error);
+    } catch (error) {
+      console.error("Error sending email:", error);
     }
   };
 
@@ -60,7 +60,7 @@ const ContactPage = () => {
       </h1>
       <main className="flex flex-col md:flex-row justify-between items-center md:items-start gap-8 md:gap-16 p-4">
         <div className="flex flex-col items-center m-auto md:items-start text-center md:text-left">
-          <h2>Let's Get In Touch.</h2>
+          <h2>Let&apos;s Get In Touch.</h2>
           <p className="mt-2">+91 9876543210</p>
           <p>abc@example.com</p>
           <p>Cuddalore, India</p>

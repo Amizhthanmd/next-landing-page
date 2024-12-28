@@ -18,7 +18,7 @@ const HomePage = () => {
           team. Just get started with us.
         </p>
         <Button size="lg" className="mt-4 group relative overflow-hidden">
-          LET'S TALK
+          LET&apos;S TALK
           <MoveRight className="ml-2 transition-transform duration-300 group-hover:translate-x-2" />
         </Button>
       </div>

@@ -26,7 +26,7 @@ export function AboutPage() {
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tight">About Us</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          We're a team of passionate individuals dedicated to creating
+          We&apos;re a team of passionate individuals dedicated to creating
           exceptional digital experiences.
         </p>
       </section>
